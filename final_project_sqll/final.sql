@@ -1,7 +1,10 @@
+--creating database
+create database final;
 
----creating and inserting
+----using the database
+use final;
 
-
+---creating and inserting in the database
 CREATE TABLE PATIENTS(
 patient_id int  primary key,
 patient_name varchar(50),
